@@ -1,0 +1,24 @@
+/*color pallet
+white
+
+*/
+
+
+body{
+    background-color: rgb(10, 133, 214);
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline;
+
+  }
+  #header{
+    background-color: bisque;
+  }
+  table{
+  
+    margin-left: 50px;
+    ;
+  }
