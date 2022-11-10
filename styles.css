@@ -4,19 +4,40 @@ white
 */
 
 #n1{
-  color: red;
+  color: #000;
   font-size: 300%;
-  font-family:cursive;
-  text-align: center;
+  font-family:Big Caslon;
+  text-align: left;
   text-shadow: 5ch;
   
 }
+#n2{
+  text-align: left;
+  font-size: 150%;
+  font-family: Big Caslon;
+}
+#n3{
+  text-align: left;
+  font-size: 100%;
+  font-family: Big Caslon;
+  
+
+}
+img{
+  border-radius: 25px;
+
+}
+html{
+  background-color: #1F2839;
+}
 
 body{
-    background-color: rgb(222, 219, 219);
+    background-color: #B69D74;
     word-wrap: normal;
     margin-right: 10%;
     margin-left: 10%;
+    margin-top: 0%;
+    
     
     
 }
