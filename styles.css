@@ -15,15 +15,18 @@ white
   justify-content: center;
   align-items: center;
   scroll-behavior: smooth;
-  background: 2839313;
-  font-family:Big Caslon;
+  background: #1F2839;
+  font-family:'Times New Roman', Times, serif;
+ 
 }
 
 h1 a {
 font-size: 80px;
-color:#B69D74;
+color:#000000;
 text-decoration: none;
 text-transform: uppercase;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #B69D74;
 }
 h2{
 font-size: 40px;
@@ -120,7 +123,7 @@ align-items: center;
 justify-content: center;
 background-color: #000000;
 color: #fff;
-content: "×";
+content: "x";
 cursor: pointer;
 opacity: 0; 
 animation: 1s fadeIn ease forwards .5s;
@@ -145,29 +148,10 @@ opacity: 1;
   opacity: 1;
 }
 }
-
-
-
-
-
-img{
-  border-radius: 25px;
-
-}
 html{
   background-color: #1F2839;
 }
 
-wbody{
-    background-color: #B69D74;
-    word-wrap: normal;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 0%;
-    
-    
-    
-}
 li{
     list-style-type: none;
 
@@ -176,5 +160,23 @@ table{
     margin-bottom: 20%;
     margin-left: auto;
     background-color: beige;
+    text-shadow: 10px 10px 10px rgb(212, 212, 212);
   }
+.title{
+  font-family:'Times New Roman';
+  font-size: 80px;
+  color:#000000;
+  text-transform:uppercase;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #B69D74;
+  text-shadow: 10px 10px 10px rgba(212, 212, 212, 0.372);
+  }
+.content{
+  color: #fff;
+}
+#img{
+  width: 50px;
+  height: 50px;
+}
 
