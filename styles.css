@@ -5,16 +5,12 @@ white
 /*icon urls*/
 @import url('https://css.gg/link.css');
 @import url('https://css.gg/instagram.css');
+@import url('https://css.gg/youtube.css');
 
-html{
-  background-color: #1F2839;
-}
 
 body{
-  margin-left: 10%;
-  margin-right:10%;
   margin-top: auto;
-  background-color: rgb(0, 136, 255);
+  background-color: rgb(16, 55, 90);
 }
 
 .container {
@@ -178,10 +174,18 @@ li{
   text-align: justify;
   
 }
+.cwrapper{/*for the content on educaton page*/
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  top: 10;
+  border:2px solid;
+  margin: 0;
+  position: relative;
+}
 .slidebox{
-    width: 40%;
+    width: 200%;
     position: absolute;
-    transform: translate(-50%,-50%);
     top: 50%;
     margin-left: 20%;
     overflow: hidden;
@@ -235,37 +239,26 @@ a:hover{
   font-style: italic;
 }
 #para{
-  text-align: justify;
+  width: 200%;
   position: absolute;
-  top: 80%;
-  width: 50em;      
+  top: 100%;
+  margin-left: 18%;  
   background-color: rgb(4, 152, 201);       
   border: 2px solid black;    
   border-radius: 8px;  
-  padding: 10px;      
-  word-wrap: break-word;      
-  font-size: 20px;    
+  padding: 3%;      
+  word-wrap:break-word;      
+  font-size: 110%;    
 }
-#slink{
+
+#linkicon{
+  color: antiquewhite;
+  top: 65%;
+  left: 240%; 
+}
+#link{
   position: relative;
-  margin-left: 20%;
-  top: -4%;
+  top: 60%;
+  left: 250%;  
 }
-.linkwrapper{
-    position: relative;
-    width: 10%;
-    height: 30%;
-    padding: 20px;
-    top: 30%;
-    left: 52%;
-    border: 1px solid;
-}
-.gg-link {
-  color: aqua;
-  position: relative;
-}
-.gg-instagram {
-  color: aqua;
-  position: relative;
-  padding: 2px;
-}
+
