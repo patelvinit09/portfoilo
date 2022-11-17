@@ -9,7 +9,7 @@ white
     padding: 0;
   }
   
-  .container {
+  /*.container {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -171,10 +171,10 @@ white
     color: #fff;
   }
   .slidebox{
-      width: 1000px;
+      width: 10%;
       position: absolute;
       transform: translate(-50%,-50%);
-      top: 50%;
+      top: -5%;
       left: 50%;
       overflow: hidden;
       border: 1px solid #000000;
@@ -257,12 +257,69 @@ white
   }
   
   #item:hover #highlight{
-    /* hardcoded */
+    
     width: 300px; 
+  }*/
+
+  h1 {
+    font-size: 4rem;
   }
-  
-  
-  
-  
-  
-  
+  p {
+    font-size: 1.5rem;
+  }
+  body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #202731;
+    overflow-x: hidden;
+  }
+
+  section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+  }
+
+  .blue {
+    background: #3c31dd;
+  }
+
+  .red {
+    background: #dd3f31;
+  }
+
+  .curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    top: -10;
+    transform: translate(85%, 60%);
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  .curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #cecece;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+  }
