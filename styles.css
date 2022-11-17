@@ -84,9 +84,6 @@ img{
 .mainbody{
   background-color: #000000;
 }
-
-
-
 .popover {
  display: none;
  }
@@ -113,7 +110,6 @@ color: #fff;
 background: #000000c7;
 animation: 1s grow ease forwards;
 text-align: center;
-border: 5px solid linear-gradient(to bottom right, rgb(0, 71, 121),rgb(0, 119, 62));
 }
 /* gradient border for the popup box */
 .border-gradient {
@@ -227,6 +223,7 @@ li{
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ededed;
   
   }
 
@@ -282,23 +279,68 @@ a:visited, a:link, a:active
   flex-direction: column;
   align-items: center;
   color: #ededed;
-}
-
-.bkbce{
-  background: #1c185d;
-  padding: 5%;
 
 }
-
 .salforduni {
-  background: #bd362a;
   padding: 5%;
+  background-image: linear-gradient(to bottom right, rgb(239, 146, 6), rgb(227, 62, 25));
 
+}
+.conbody{
+  
+  background:rgb(30,30,40); 
 }
 
 
+form { max-width:420px; margin:50px auto; }
 
+.feedback {
+  color:rgb(208, 208, 208);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:5px solid;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
 
+.feedback:focus { border:2px solid skyblue}
 
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
 
-
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:skyblue;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:1.5rem;
+  padding: 2%;
+  margin-top:-4px;
+  font-weight:700;
+}
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  margin: 0 auto;
+}
