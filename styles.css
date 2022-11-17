@@ -2,58 +2,7 @@
 white
 
 */
-/*.content{
-  color: #fff;
-  text-align: justify;
-  
-}
-.slidebox{
-    width: 50%;
-    position: absolute;
-    top: 30%;
-    margin-left: -30%;
-    overflow: hidden;
-    border: 1px solid #000000;
-    box-shadow: -1px 5px 15px black;
-    
-}
-.slides{
-  width: 100%;
-    display:flex;
-    animation: slide 20s infinite;
-    object-fit: cover;
 
-}
-img{
-  width: 100%;
-}
-
-@keyframes slide{
-  0%{
-      transform: translateX(0);
-  }
-  25%{
-      transform: translateX(0);
-  }
-  30%{
-      transform: translateX(-100%);
-  }
-  50%{
-      transform: translateX(-100%);
-  }
-  55%{
-      transform: translateX(-200%);
-  }
-  75%{
-      transform: translateX(-200%);
-  }
-  80%{
-      transform: translateX(-300%);
-  }
-  100%{
-      transform: translateX(-300%);
-  }
-}*/
 /* font links */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=Fredericka+the+Great&family=Macondo&family=Racing+Sans+One&family=Rakkas&family=Rancho&family=Spinnaker&family=Viga&family=Yatra+One&display=swap');
 
