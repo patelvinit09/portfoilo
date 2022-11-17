@@ -2,49 +2,93 @@
 white
 
 */
-/* font links */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marhey&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+/*.content{
+  color: #fff;
+  text-align: justify;
+  
+}
+.slidebox{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    margin-left: -30%;
+    overflow: hidden;
+    border: 1px solid #000000;
+    box-shadow: -1px 5px 15px black;
+    
+}
+.slides{
+  width: 100%;
+    display:flex;
+    animation: slide 20s infinite;
+    object-fit: cover;
 
+}
+img{
+  width: 100%;
+}
+
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}*/
+/* font links */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=Fredericka+the+Great&family=Macondo&family=Racing+Sans+One&family=Rakkas&family=Rancho&family=Spinnaker&family=Viga&family=Yatra+One&display=swap');
 
 
 .name{
   font-size: 10rem;
   text-align: center;
-  font-family: 'Lobster';
+  font-family: 'Racing Sans One', cursive;
   background-image: linear-gradient(to bottom right, rgb(6, 142, 239), rgb(20, 233, 130));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-break: auto;
 }
-/* style for position/job role
-.role{
+.backlink{
+  position: sticky;
+  display: inline;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.724);
+  padding: 1%;
+  font-size: 3rem;
+  z-index: 1;
+  font-family: 'Rakkas', cursive;
   text-transform: uppercase;
-  font-size: 600%;
-  letter-spacing: 1.5rem;
-  z-index: -1;
-  font-family: monospace;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: .5px white;
-  line-break: auto;  
-} */
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  scroll-behavior: smooth;
-  /* background: #111111; */
-  font-family: 'Marhey', cursive; 
-  
+  color: #000000;
+  border-radius:0px 0px 8px;
+  -webkit-text-stroke: 2px black;
 }
+.mainbody{
+  background-color: #000000;
+}
+
 
 
 .popover {
  display: none;
- box-shadow: 0px 6px 8px #B69D74;
  }
 
 .popover:target {
@@ -66,7 +110,7 @@ position: relative;
 width: 0;
 height: 0;
 color: #fff;
-background: #000000c6;
+background: #000000c7;
 animation: 1s grow ease forwards;
 text-align: center;
 border: 5px solid linear-gradient(to bottom right, rgb(0, 71, 121),rgb(0, 119, 62));
@@ -88,7 +132,7 @@ list-style-type: none;
 .nav_list a {
 text-decoration: none;
 font-size: 5rem;
-font-family: 'Chakra Petch', sans-serif;
+font-family: 'Rakkas', cursive;
 -webkit-text-fill-color: transparent;
 -webkit-text-stroke: 2px white;
 color: rgb(0, 0, 0);
@@ -174,169 +218,86 @@ li{
   }
 
 .title{
-  font-family:'Times New Roman';
-  position: sticky;
-  font-size: 500%;
-  color:#000000;
-  text-transform:uppercase;
-  text-align: center;
-  -webkit-text-stroke-width: 20%;
-  -webkit-text-stroke-color: #B69D74;
-  text-shadow: 10px 10px 10px rgba(212, 212, 212, 0.372);
-  }
-/*.content{
-  color: #fff;
-  text-align: justify;
-  
-}
-.slidebox{
-    width: 50%;
-    position: absolute;
-    top: 30%;
-    margin-left: -30%;
-    overflow: hidden;
-    border: 1px solid #000000;
-    box-shadow: -1px 5px 15px black;
-    
-}
-.slides{
-  width: 100%;
-    display:flex;
-    animation: slide 20s infinite;
-    object-fit: cover;
-
-}
-img{
-  width: 100%;
-}
-
-@keyframes slide{
-  0%{
-      transform: translateX(0);
-  }
-  25%{
-      transform: translateX(0);
-  }
-  30%{
-      transform: translateX(-100%);
-  }
-  50%{
-      transform: translateX(-100%);
-  }
-  55%{
-      transform: translateX(-200%);
-  }
-  75%{
-      transform: translateX(-200%);
-  }
-  80%{
-      transform: translateX(-300%);
-  }
-  100%{
-      transform: translateX(-300%);
-  }
-}*/
-  
-a:visited, a:link, a:active
-{
-    text-decoration: none;
-    text-decoration-color: #fff;
-    color: #fff;
-}
-
-
-h1 {
-  font-size: 4rem;
-  text-align: center;
-  
-
-}
-/* class for h2 on education page */
-.h2{
-  font-size: 2rem;
-  text-align: center;
-  
-
-}
-.para {
-  font-size: 150%;
-  text-align: justify;
-  width: 50%;
-  word-wrap: break-word;
-  
-}
-body {
-  margin: 0;
-  font-family: 'Prompt', sans-serif;
-  color: rgb(255, 255, 255);
-  background: #161515;
-  overflow-x: hidden;
-}
-
-section {
+  font-family: 'Fredericka the Great', cursive; 
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: .80rem;
+  padding:1%;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 800px;
-  padding-top: 10px;
+  
+  }
+
+  
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.blue {
-  background: #3c31dd;
+/* for education titles */
+.edh1 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 2%;
+  font-family: 'Yatra One', cursive;
+
+  
+
+}
+/* class for h2 on education page */
+.edh2{
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(235, 233, 233);
+  font-family: 'Yatra One', cursive;
+  
+
+}
+.edpara {
+  font-size: 150%;
+  text-align: justify;
+  width: 60%;
+  word-wrap: break-word;
+  padding: 1%;
+  font-family: 'Spinnaker', sans-serif
+  
+}
+/* styles for education */
+.edbody {
+  margin: 0;
+  color: rgb(243, 243, 243);
+  background: #161515;
+  overflow-x: hidden;
 }
 
-.red {
-  background: #dd3f31;
+.edsection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ededed;
 }
 
-.pink {
-  background: #ff0066;
-  overflow: hidden;
+.bkbce{
+  background: #1c185d;
+  padding: 5%;
+
 }
 
-.dark {
-  background: #0f0f10;
-  min-height: auto;
+.salforduni {
+  background: #bd362a;
+  padding: 5%;
+
 }
 
-.curve::before {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  transform: translate(-110%,10%);
-  background-color: hsl(216, 21%, 16%);
-}
 
-.curve::after {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: #e6e6e6;
-  transform: translate(40, 40px);
- /* z-index: -1;*/
-}
 
-/* Bubble bg with plain CSS */
-
-.bubble::after {
-  content: '';
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-  background-color: #0404e2;
-  height: 85%;
-  z-index: -1;
-}
 
 
 
