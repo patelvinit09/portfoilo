@@ -16,6 +16,25 @@ white
   -webkit-text-fill-color: transparent;
   line-break: auto;
 }
+.sociallinks{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  word-spacing: 10rem;
+
+}
+.sociallinks:hover{
+  text-shadow: 10px 10px 10px black;
+}
+#linkedin{
+  color: #4078c0;
+}
+#github{
+  color: #4CAF50;
+}
+#codepen{
+  color: #fcd000;
+}
 .backlink{
   position: sticky;
   display: inline;
@@ -31,7 +50,7 @@ white
   -webkit-text-stroke: 2px black;
 }
 .mainbody{
-  background-color: #000000;
+  background-color: #242424;
 }
 .popover {
  display: none;
@@ -76,7 +95,7 @@ list-style-type: none;
 
 .nav_list a {
 text-decoration: none;
-font-size: 5rem;
+font-size: 4rem;
 font-family: 'Rakkas', cursive;
 -webkit-text-fill-color: transparent;
 -webkit-text-stroke: 2px white;
