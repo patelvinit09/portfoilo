@@ -1,9 +1,6 @@
 /* font links */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=Fredericka+the+Great&family=Italiana&family=Lora:wght@500&family=Macondo&family=Racing+Sans+One&family=Rakkas&family=Rancho&family=Spinnaker&family=Viga&family=Yatra+One&display=swap');
 
-.html{
-  margin: 0;
-}
 /* styles for main page/home page */
 .mainbody{
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1500' height='900' preserveAspectRatio='none' viewBox='0 0 1500 900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1037%26quot%3b)' fill='none'%3e%3crect width='1500' height='900' x='0' y='0' fill='rgba(78%2c 135%2c 140%2c 1)'%3e%3c/rect%3e%3cpath d='M1553.2682435050572 497.9379426384449L1357.2634987157373 546.8074142045534 1406.1329702818457 742.8121589938733 1602.1377150711658 693.9426874277648z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1171.0079233293034 288.29740852618295L1019.0386541401451 469.05720005838714 1221.6816751554345 508.4470131279403z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1419.799%2c446.665C1444.648%2c445.934%2c1469.045%2c436.411%2c1481.798%2c415.071C1494.864%2c393.207%2c1493.536%2c366.109%2c1481.284%2c343.778C1468.516%2c320.507%2c1446.337%2c302.585%2c1419.799%2c302.071C1392.447%2c301.541%2c1367.903%2c317.725%2c1354.044%2c341.312C1339.989%2c365.232%2c1336.455%2c395.378%2c1351.145%2c418.914C1365.153%2c441.357%2c1393.354%2c447.443%2c1419.799%2c446.665' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M846.2307820614785 623.1560695220601L1153.1106082368879 639.532240742483 1035.3453034346317 398.0775839016605z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M669.1546172182614 824.1765790231264L771.2243108852281 926.246272690093 771.224310885228 722.1068853561596z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M89.934%2c83.275C114.818%2c83.745%2c137.652%2c69.303%2c149.734%2c47.545C161.479%2c26.393%2c158.465%2c1.359%2c147.356%2c-20.134C135.076%2c-43.892%2c116.667%2c-67.372%2c89.934%2c-68.156C62.229%2c-68.968%2c38.633%2c-48.537%2c26.368%2c-23.681C15.389%2c-1.43%2c21.246%2c24.028%2c33.922%2c45.357C46.268%2c66.13%2c65.773%2c82.819%2c89.934%2c83.275' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M186.27126834975442 264.8597164032961L184.0176647335165 393.96858110850684 378.80776359945156 332.79455418025833z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M41.79484509885128 877.3553998432936L197.2240963395474 764.4294387208979 84.29813521715162 609.0001874802017-71.1311160235445 721.9261486025976z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1037'%3e%3crect width='1500' height='900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");}
@@ -128,7 +125,8 @@ text-align: center;
 .border-gradient-purple {
   border-image-source: linear-gradient(350deg, whitesmoke,blue);
 }
-/* stylings for the meanu links */
+/* -stylings for the meanu links 
+- code inspired from freefrontend.com*/
 .nav_list  {
 list-style-type: none;
 }
@@ -248,12 +246,19 @@ a:visited, a:link, a:active
   text-align: center;
   text-transform: uppercase;
   color: black;
-  padding-bottom: 2%;
   font-family: 'Spinnaker', sans-serif;
   font-weight: 600;
 }
 .edh1:hover{
   text-decoration: underline;
+}
+.proh1{
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Spinnaker', sans-serif;
+  font-weight: 600;
 }
 /* class for h2 on education page */
 .edh2{
@@ -275,8 +280,7 @@ a:visited, a:link, a:active
   padding: 1%;
   font-family: 'Spinnaker', sans-serif;
   font-weight: 200;
-  padding-bottom: 10%;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1000px);
   
 }
 
@@ -289,7 +293,6 @@ a:visited, a:link, a:active
   font-size: 1.5rem;
 }
 .salforduni {
-  padding: 5%;
 
 }
 /* styles for contact page */
@@ -362,7 +365,14 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   text-align: center;
 }
 .pbidb{
-  padding: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+margin-left: 20%;
+padding: 5%;
 }
+
+
+
+
+
+
+
+
