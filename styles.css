@@ -73,7 +73,7 @@ hr{
 }
 /* link styling for like that takes to home page */
 .backlink{
-  margin-top: 0 auto;
+  margin-top: auto;
   font-size: 4rem;
   z-index: 1;
   font-family: 'Viga', sans-serif;
@@ -368,11 +368,3 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 margin-left: 20%;
 padding: 5%;
 }
-
-
-
-
-
-
-
-
